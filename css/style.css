@@ -1,0 +1,102 @@
+body {}
+
+
+/* 讓圖片自適應 */
+
+img {
+    max-width: 100%;
+}
+
+header,
+footer {
+    background: #25303d;
+    color: #fff;
+    padding: 2em 0;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.blog-post {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.entry {
+    margin: 1em 0;
+}
+
+.more {
+    display: inline-block;
+    padding: 1em 2em;
+    background: #5DAEBB;
+}
+
+.more a {
+    color: #fff;
+}
+
+.side-post {
+    color: #777;
+    margin-bottom: 3em;
+}
+
+.side-post .title {
+    color: #555;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.popular {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+footer .img-feed img {
+    margin: .5em;
+    border: 2px solid #ccc;
+}
+
+.menu-switch {
+    display: none;
+    overflow: hidden;
+    padding: 1em 0;
+}
+
+.menu-switch:hover {
+    background: #43566C;
+    cursor: pointer;
+}
+
+.menu-switch .text {
+    float: left;
+}
+
+.menu-icon {
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    /* 選單 */
+    .menu-switch {
+        color: #fff;
+        display: block;
+    }
+    .menu .item a {
+        display: block;
+        padding: 1em 0;
+    }
+    .menu .item a:hover {
+        background: #43566C;
+    }
+}
